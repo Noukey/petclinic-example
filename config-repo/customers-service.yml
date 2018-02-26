@@ -4,3 +4,8 @@ eureka:
   instance:
     # enable to register multiple app instances with a random server port
     instance-id: ${spring.application.name}:${random.uuid}
+#默认就是http://localhost:8761/eureka/ 可以不配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
