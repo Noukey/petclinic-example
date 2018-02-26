@@ -7,5 +7,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Noukey/PetClinicExampleConfig.git
+          uri: https://github.com/Noukey/petclinic-example.git
           search-paths: config-repo
