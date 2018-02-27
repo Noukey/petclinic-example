@@ -9,3 +9,5 @@ spring:
         git:
           uri: https://github.com/Noukey/petclinic-example.git
           search-paths: config-repo
+          username: 670908858@qq.com
+          password: weihua1413

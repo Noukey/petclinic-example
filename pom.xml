@@ -141,5 +141,7 @@
 	<modules>
 		<module>ConfigServer</module>
 		<module>DiscoveryServer</module>
+		<module>CustomersService</module>
+		<module>TracingServer</module>
 	</modules>
 </project>
