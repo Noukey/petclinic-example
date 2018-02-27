@@ -1,0 +1,10 @@
+server:
+  port: 8088
+
+eureka:
+  instance:
+    # enable to register multiple app instances with a random server port
+    instance-id: ${spring.application.name}:${random.uuid}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/

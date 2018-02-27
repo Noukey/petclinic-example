@@ -143,5 +143,6 @@
 		<module>DiscoveryServer</module>
 		<module>CustomersService</module>
 		<module>TracingServer</module>
+		<module>ZuulServer</module>
 	</modules>
 </project>
